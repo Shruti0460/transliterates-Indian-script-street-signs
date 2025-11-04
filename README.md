@@ -1,5 +1,3 @@
-# transliterates-Indian-script-street-signs
-
 
 # Bharat Script Transliterator – Street Sign Reader
 
@@ -40,9 +38,7 @@ Existing apps focus on **translation**, not **transliteration**, making them ine
 
 > Devanagari (Hindi, Marathi), Tamil, Bengali, Telugu, Kannada, Malayalam, Gurmukhi (Punjabi), Gujarati
 
----
 
-## 🔮 Future Features (Planned)
 
 ### Phase 2 – Enhanced Recognition
 
@@ -104,26 +100,9 @@ Existing apps focus on **translation**, not **transliteration**, making them ine
 
 ---
 
-## 💰 Monetization (Planned)
-
-| Tier                 | Features                                                  |
-| -------------------- | --------------------------------------------------------- |
-| **Free**             | 8 base scripts, offline mode, 50 history items            |
-| **Premium (₹99/mo)** | All scripts, AR mode, voice output, ad-free, cloud backup |
-
----
-
-## 🧩 Development Roadmap
-
-| Phase                     | Duration                                               | Focus |
-| ------------------------- | ------------------------------------------------------ | ----- |
-| **Phase 1 (Months 1–3)**  | Core OCR, transliteration, offline support (8 scripts) |       |
-| **Phase 2 (Months 4–6)**  | Voice, analytics, UI polish, additional scripts        |       |
-| **Phase 3 (Months 7–12)** | AR mode, premium features, crowdsourcing               |       |
 
 
 
----
 
 
 
