@@ -1,10 +1,7 @@
 # transliterates-Indian-script-street-signs
 
-Perfect 👍 — based on your **Product Requirements Document (PRD)** for the **Bharat Script Transliterator - Street Sign Reader**, here’s a clean and professional **`README.md`** file for your GitHub repository 👇
 
----
-
-# 🪶 Bharat Script Transliterator – Street Sign Reader
+# Bharat Script Transliterator – Street Sign Reader
 
 ### 📱 Read any Indian signboard in your language — instantly and offline.
 
@@ -124,42 +121,11 @@ Existing apps focus on **translation**, not **transliteration**, making them ine
 | **Phase 2 (Months 4–6)**  | Voice, analytics, UI polish, additional scripts        |       |
 | **Phase 3 (Months 7–12)** | AR mode, premium features, crowdsourcing               |       |
 
----
 
-## 👩‍💻 Team Roles
-
-* **Product Manager** – Vision, roadmap, requirements
-* **Android Developers** – App development (Kotlin, ML integration)
-* **ML Engineers** – OCR and transliteration model tuning
-* **UI/UX Designer** – User flow and accessibility design
-* **QA Engineer** – Testing and performance validation
 
 ---
 
-## 📊 Key Success Metrics
 
-* 1M+ downloads in 12 months
-* 4.2+ Play Store rating
-* <2 seconds recognition time
-* 90% transliteration accuracy
-* 60% weekly active users
-
----
-
-## 🏆 Vision
-
-Empower every traveler in India to **read and understand any street sign** —
-without needing to know the local script.
-Celebrate India’s linguistic diversity through **technology, inclusivity, and design**.
-
----
-
-## 📄 License
-
-This project is open-source under the **MIT License**.
-Contributions are welcome to expand script support, improve accuracy, and enhance the user experience.
-
----
 
 ## 🧭 Repository Structure
 
@@ -176,20 +142,6 @@ streetlight/
  └── README.md
 ```
 
----
 
-## 🤝 Contributing
 
-We welcome open-source contributions!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m "Added new feature"`)
-4. Push to your branch (`git push origin feature-name`)
-5. Open a Pull Request 🎉
-
----
-
-**Developed with ❤️ in India** 🇮🇳
-By the **Bharat Transliteration Project Team**
 
