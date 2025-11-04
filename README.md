@@ -68,15 +68,7 @@ Existing apps focus on **translation**, not **transliteration**, making them ine
 | **Analytics & Crash Reporting** | Firebase                                    |
 | **Optional Cloud Processing**   | REST API + Firebase Remote Config           |
 
----
 
-## 📈 Performance Targets
-
-* Transliteration accuracy: **>90%**
-* Recognition speed: **<2 seconds**
-* App size: **<150 MB (with 8 models)**
-* Crash rate: **<1%**
-* Offline operation: **100% for installed scripts**
 
 ---
 
