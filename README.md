@@ -1,1 +1,195 @@
 # transliterates-Indian-script-street-signs
+
+Perfect 👍 — based on your **Product Requirements Document (PRD)** for the **Bharat Script Transliterator - Street Sign Reader**, here’s a clean and professional **`README.md`** file for your GitHub repository 👇
+
+---
+
+# 🪶 Bharat Script Transliterator – Street Sign Reader
+
+### 📱 Read any Indian signboard in your language — instantly and offline.
+
+---
+
+## 🚀 Overview
+
+**Bharat Script Transliterator** is an Android application that helps travelers, migrants, and language learners read **Indian street signs, public boards, and direction markers** written in unfamiliar scripts.
+
+Instead of translating the meaning, it **preserves pronunciation** — showing how a word is *read* in your preferred script.
+For example, a Tamil street name can be transliterated into Devanagari or Gurmukhi, allowing users to **sound it out naturally**.
+
+---
+
+## 🌍 Problem Statement
+
+India’s 22+ official scripts make navigation across states challenging.
+Travelers and migrants often find it difficult to read local signboards written in unfamiliar scripts.
+Existing apps focus on **translation**, not **transliteration**, making them ineffective for proper nouns like *place names*.
+
+**Our goal:** Bridge this linguistic gap through a real-time, offline transliteration tool for all Indian scripts.
+
+---
+
+## 🎯 Key Features
+
+### 🔹 MVP Features (Phase 1)
+
+* **Camera-based transliteration** — Point your phone at a signboard and get instant reading in your preferred script.
+* **Automatic script detection** — Detects the original script (e.g., Tamil, Bengali, Devanagari, etc.) automatically.
+* **Offline functionality** — Works without internet using on-device models.
+* **History storage** — Keeps your last 50 transliterations.
+* **User settings** — Choose target script, adjust font size, and toggle camera quality.
+
+**Supported Scripts (Phase 1):**
+
+> Devanagari (Hindi, Marathi), Tamil, Bengali, Telugu, Kannada, Malayalam, Gurmukhi (Punjabi), Gujarati
+
+---
+
+## 🔮 Future Features (Planned)
+
+### Phase 2 – Enhanced Recognition
+
+* Multi-sign detection and low-light optimization
+* Voice output for transliterated text
+* Additional scripts (Odia, Urdu, Assamese, Kashmiri, Konkani, Manipuri)
+* Share transliterations and favorite them
+
+### Phase 3 – Advanced Capabilities
+
+* AR mode for real-time overlays
+* Continuous recognition while moving
+* Crowdsourced corrections and learning module
+* Smart region-based script detection
+
+---
+
+## ⚙️ Technical Stack
+
+| Component                       | Technology                                  |
+| ------------------------------- | ------------------------------------------- |
+| **App Platform**                | Android (8.0 and above)                     |
+| **Architecture**                | MVVM + Clean Architecture                   |
+| **OCR Engine**                  | Google ML Kit / Tesseract                   |
+| **Transliteration Engine**      | AI4Bharat, Indic-trans, or Hybrid ML models |
+| **Storage**                     | Room Database (SQLite)                      |
+| **Analytics & Crash Reporting** | Firebase                                    |
+| **Optional Cloud Processing**   | REST API + Firebase Remote Config           |
+
+---
+
+## 📈 Performance Targets
+
+* Transliteration accuracy: **>90%**
+* Recognition speed: **<2 seconds**
+* App size: **<150 MB (with 8 models)**
+* Crash rate: **<1%**
+* Offline operation: **100% for installed scripts**
+
+---
+
+## 🎨 User Experience Highlights
+
+* Clean, minimal **camera-first interface**
+* **One-tap capture** and instant result overlay
+* **Large readable fonts** and accessibility support
+* Fully **offline-first** with graceful fallbacks
+
+---
+
+## 🧠 Challenges & Solutions
+
+| Challenge                 | Solution                                            |
+| ------------------------- | --------------------------------------------------- |
+| Multi-script detection    | Ensemble ML models and location-based hints         |
+| Large model sizes         | Quantized (<5MB per script) and on-demand downloads |
+| Transliteration ambiguity | Phonetic-first, ISO 15919 standard                  |
+| Poor lighting and angles  | Image preprocessing & perspective correction        |
+
+---
+
+## 💰 Monetization (Planned)
+
+| Tier                 | Features                                                  |
+| -------------------- | --------------------------------------------------------- |
+| **Free**             | 8 base scripts, offline mode, 50 history items            |
+| **Premium (₹99/mo)** | All scripts, AR mode, voice output, ad-free, cloud backup |
+
+---
+
+## 🧩 Development Roadmap
+
+| Phase                     | Duration                                               | Focus |
+| ------------------------- | ------------------------------------------------------ | ----- |
+| **Phase 1 (Months 1–3)**  | Core OCR, transliteration, offline support (8 scripts) |       |
+| **Phase 2 (Months 4–6)**  | Voice, analytics, UI polish, additional scripts        |       |
+| **Phase 3 (Months 7–12)** | AR mode, premium features, crowdsourcing               |       |
+
+---
+
+## 👩‍💻 Team Roles
+
+* **Product Manager** – Vision, roadmap, requirements
+* **Android Developers** – App development (Kotlin, ML integration)
+* **ML Engineers** – OCR and transliteration model tuning
+* **UI/UX Designer** – User flow and accessibility design
+* **QA Engineer** – Testing and performance validation
+
+---
+
+## 📊 Key Success Metrics
+
+* 1M+ downloads in 12 months
+* 4.2+ Play Store rating
+* <2 seconds recognition time
+* 90% transliteration accuracy
+* 60% weekly active users
+
+---
+
+## 🏆 Vision
+
+Empower every traveler in India to **read and understand any street sign** —
+without needing to know the local script.
+Celebrate India’s linguistic diversity through **technology, inclusivity, and design**.
+
+---
+
+## 📄 License
+
+This project is open-source under the **MIT License**.
+Contributions are welcome to expand script support, improve accuracy, and enhance the user experience.
+
+---
+
+## 🧭 Repository Structure
+
+```
+streetlight/
+ ├── app/
+ │   ├── src/
+ │   ├── java/com/example/street_light/
+ │   ├── res/
+ │   └── build.gradle.kts
+ ├── gradle/
+ ├── settings.gradle.kts
+ ├── .idea/
+ └── README.md
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome open-source contributions!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m "Added new feature"`)
+4. Push to your branch (`git push origin feature-name`)
+5. Open a Pull Request 🎉
+
+---
+
+**Developed with ❤️ in India** 🇮🇳
+By the **Bharat Transliteration Project Team**
+
