@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Overview
+
 
 **Bharat Script Transliterator** is an Android application that helps travelers, migrants, and language learners read **Indian street signs, public boards, and direction markers** written in unfamiliar scripts.
 
